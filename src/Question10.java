@@ -4,7 +4,7 @@ public class Question10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("plus until number: ");
+        System.out.print("1부터 n까지 더해질 숫자n(합한 숫자가 100이상일때 출력): ");
         int number = sc.nextInt();
         int sum = 0;
 
