@@ -9,10 +9,12 @@ public class Question6 {
         System.out.print("최소공약수 두번째 수: ");
         int num2 = sc.nextInt();
 
-        while (num1 != num2) {
-            if (num1 % num2 == 0) {
-
+        for(int i = Math.max(num1, num2); i>0; i--) {
+            if(num1 % i == 0 && num2 % i == 0) {
+                System.out.println(i);
+                break;
             }
         }
+
     }
 }
